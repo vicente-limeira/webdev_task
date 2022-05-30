@@ -25,7 +25,7 @@ public class Pessoa extends AbstractEntity {
     private String nome;
 
     @Column(nullable = false)
-    private Boolean eh_pessoa_juridica;
+    private Boolean pessoa_juridica;
 
     @Column(length = 80, nullable = false)
     private String telefones;

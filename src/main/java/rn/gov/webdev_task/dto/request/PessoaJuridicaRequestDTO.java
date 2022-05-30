@@ -23,7 +23,7 @@ public class PessoaJuridicaRequestDTO {
         
         // Pessoa
         pj.setNome(this.nome);
-        pj.setEh_pessoa_juridica(true);
+        pj.setPessoa_juridica(true);
         pj.setTelefones(this.telefones);
         pj.setEndereco(this.endereco);
         

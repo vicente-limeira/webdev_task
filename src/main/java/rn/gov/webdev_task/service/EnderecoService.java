@@ -1,17 +1,15 @@
 package rn.gov.webdev_task.service;
 
-import rn.gov.webdev_task.repository.EnderecoRepository;
-import rn.gov.webdev_task.model.Endereco;
-
 import java.util.Date;
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+
+import rn.gov.webdev_task.model.Endereco;
+import rn.gov.webdev_task.repository.EnderecoRepository;
 
 @Service
 public class EnderecoService {

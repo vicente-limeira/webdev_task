@@ -37,7 +37,7 @@ public class PessoaFisicaRequestDTO {
         
         // Pessoa
         pf.setNome(this.nome);
-        pf.setEh_pessoa_juridica(false);
+        pf.setPessoa_juridica(false);
         pf.setTelefones(this.telefones);
         pf.setEndereco(this.endereco);
 
