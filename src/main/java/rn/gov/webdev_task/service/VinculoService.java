@@ -1,16 +1,15 @@
 package rn.gov.webdev_task.service;
 
-import rn.gov.webdev_task.repository.VinculoRepository;
-import rn.gov.webdev_task.model.Vinculo;
-
 import java.util.Date;
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+
+import rn.gov.webdev_task.model.Vinculo;
+import rn.gov.webdev_task.repository.VinculoRepository;
 
 @Service
 public class VinculoService {

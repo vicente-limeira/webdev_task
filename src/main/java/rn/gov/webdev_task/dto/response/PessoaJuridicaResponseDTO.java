@@ -16,7 +16,7 @@ public class PessoaJuridicaResponseDTO {
     private String telefones;
     private Endereco endereco;
 
-    @Data
+    
     public PessoaJuridicaResponseDTO (PessoaJuridica pj) {
         this.setId(pj.getId());
         this.setRazao_social(pj.getRazao_social());

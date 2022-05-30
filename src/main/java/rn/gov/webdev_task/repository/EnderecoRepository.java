@@ -1,13 +1,11 @@
 package rn.gov.webdev_task.repository;
 
-import rn.gov.webdev_task.model.Endereco;
-
-import java.util.List;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import rn.gov.webdev_task.model.Endereco;
 
 public interface EnderecoRepository extends JpaRepository<Endereco, Long> {
 
